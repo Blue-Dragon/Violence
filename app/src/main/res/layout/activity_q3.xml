@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layoutDirection="ltr"
+    android:layout_height="match_parent">
+
+
+
+
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/q3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="20dp"
+        android:textColor="#b40076"
+        android:textSize="23dp"
+        android:layout_marginTop="30dp" />
+
+    <LinearLayout
+        android:layout_marginTop="100sp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp">
+            <TextView
+                android:text="1)آسیب می رسانیم"
+                android:textColor="#112b86"
+                android:gravity="center"
+                android:textSize="19dp"
+                android:onClick="answerClick"
+                android:layout_margin="10dp"
+                android:id="@+id/tv31"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/answers" />
+            <TextView
+                android:text="2)صدمه می رسانیم"
+                android:textColor="#112b86"
+                android:gravity="center"
+                android:onClick="answerClick"
+                android:layout_margin="10dp"
+                android:id="@+id/tv32"
+                android:textSize="19dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:background="@drawable/answers" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp">
+
+            <TextView
+                android:id="@+id/tv33"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/answers"
+                android:gravity="center"
+                android:onClick="answerClick"
+                android:text="3)کمک می کنیم"
+                android:textColor="#112b86"
+                android:textSize="19dp" />
+            <TextView
+                android:text="4)گزینه 1و2"
+                android:textColor="#112b86"
+                android:gravity="center"
+                android:onClick="answerClick"
+                android:textSize="19dp"
+                android:layout_margin="10dp"
+                android:id="@+id/tv34"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/answers" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

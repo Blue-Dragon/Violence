@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bkg2"
+    android:orientation="vertical"
+    android:layoutDirection="ltr"
+    android:gravity="center"
+>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+    </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_marginBottom="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:foregroundGravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/white_bkg"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="18dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/mag_more_A"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    app:srcCompat="@drawable/mag_more"
+                    android:onClick="onClick"/>
+
+                <TextView
+                    android:layout_gravity="center_vertical"
+                    android:paddingTop="20dp"
+                    android:layout_weight="3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="درباره ما"
+                    android:fontFamily="@font/b_titr"
+                    android:textColor="@color/black"
+                    android:gravity="center_horizontal"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/mag_less_a"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    app:srcCompat="@drawable/mag_less"
+                    android:onClick="onClick"/>
+
+            </LinearLayout>
+
+            <android.support.v4.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/us1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:fontFamily="@font/b_titr"
+                        android:textColor="@color/black"
+                        android:lineSpacingExtra="3dp"
+                        android:onClick="onClick"
+                        android:text="درباره نرم افزار" />
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/us2"
+                        android:fontFamily="@font/b_nazanin"
+                        android:lineSpacingExtra="4dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textColor="@color/black"
+                        android:onClick="onClick"
+                        android:text="@string/about_app" />
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/us3"
+                        android:fontFamily="@font/b_nazanin"
+                        android:lineSpacingExtra="4dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textColor="@color/black"
+                        android:onClick="onClick"
+                        android:text="@string/about_logo" />
+                    <TextView
+                        android:layout_marginTop="18dp"
+                        android:id="@+id/us4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:fontFamily="@font/b_titr"
+                        android:textColor="@color/black"
+                        android:lineSpacingExtra="3dp"
+                        android:onClick="onClick"
+                        android:text="درباره سازنده" />
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/us5"
+                        android:fontFamily="@font/b_nazanin"
+                        android:lineSpacingExtra="4dp"                android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textColor="@color/black"
+                        android:onClick="onClick"
+                        android:text="من محمد گنجعلی هستم. دانش آموز پایه هشتم دبیرستان شاهد نور شهرستان دزفول. " />
+                    <TextView
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/us6"
+                        android:fontFamily="@font/b_nazanin"
+                        android:lineSpacingExtra="4dp"                android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textColor="@color/black"
+                        android:onClick="onClick"
+                        android:text="تخصص من بیشتر در زمینه های گرافیک، طراحی و ویرایش فیلم است، هرچند در در زمینه برنامه نویسی نیز کم و بیش فعالیت می کنم." />
+
+                </LinearLayout>
+
+
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+        </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+    </LinearLayout>
+
+
+</LinearLayout>

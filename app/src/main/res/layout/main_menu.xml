@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@drawable/tic_bkg"
+    android:gravity="center"
+    android:layoutDirection="ltr"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_height="200dp">
+
+        <Button
+            android:id="@+id/one_player"
+            android:layout_width="180dp"
+            android:background="@color/nothing"
+            android:layout_height="90dp"/>
+
+        <Button
+            android:id="@+id/two_player"
+            android:layout_width="180dp"
+            android:background="@color/nothing"
+            android:layout_height="90dp"/>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/q2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="20dp"
+        android:textColor="#b40076"
+        android:textSize="23dp"
+        android:layout_marginTop="30dp" />
+
+    <LinearLayout
+        android:layout_marginTop="100sp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layoutDirection="ltr"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp">
+            <TextView
+                android:text="1)قبل از صحبت فکر کنیم"
+                android:textColor="#112b86"
+                android:gravity="center"
+                android:textSize="19dp"
+                android:onClick="answerClick"
+                android:layout_margin="10dp"
+                android:id="@+id/tv21"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/answers" />
+            <TextView
+                android:text="2)از طرف مقابل دلیل بخواهیم"
+                android:textColor="#112b86"
+                android:gravity="center"
+                android:onClick="answerClick"
+                android:layout_margin="10dp"
+                android:id="@+id/tv22"
+                android:textSize="19dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:background="@drawable/answers" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp">
+            <TextView
+                android:text="3)بدون هدف خودمان را آرام کنیم"
+                android:textSize="19dp"
+                android:textColor="#112b86"
+                android:gravity="center"
+                android:onClick="answerClick"
+                android:layout_margin="10dp"
+                android:id="@+id/tv23"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:background="@drawable/answers" />
+            <TextView
+                android:text="4)خشم خود را در همان وضعیت خالی کنیم"
+                android:textColor="#112b86"
+                android:gravity="center"
+                android:onClick="answerClick"
+                android:textSize="19dp"
+                android:layout_margin="10dp"
+                android:id="@+id/tv24"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/answers" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
